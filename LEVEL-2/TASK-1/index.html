@@ -3,13 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Framework</title>
-    <link rel="stylesheet" href="syles.css">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+    <style>
+        .card-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+        .card {
+            margin: 20px;
+        }
+    </style>
 </head>
 <body>
-
-
-
-    <script src="script.js"></script>
+    <section class="section">
+        <div class="container">
+            <h1 class="title">Landing Page</h1>
+            <div class="card-container">
+                <!-- Card 1 -->
+                <div class="card" style="width: 300px;">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="https://via.placeholder.com/300x225" alt="Placeholder image">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4">Card Title 1</p>
+                            </div>
+                        </div>
+                        <div class="content">
+                            This is the content of card 1. It uses the Bulma CSS framework.
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="card" style="width: 300px;">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="https://via.placeholder.com/300x225" alt="Placeholder image">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4">Card Title 2</p>
+                            </div>
+                        </div>
+                        <div class="content">
+                            This is the content of card 2. It uses the Bulma CSS framework.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
